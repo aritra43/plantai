@@ -61,7 +61,7 @@ with st.sidebar:
     target_language = st.selectbox("Select target language:", ["None", "en", "bn","hi"])
 
 # Main App Layout
-st.title("Green Guide AI")
+st.title("MedBook")
 
 
 
