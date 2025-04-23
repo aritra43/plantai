@@ -54,7 +54,7 @@ with st.sidebar:
         placeholder="Enter The Query",
         key="text_area_1"
     )
-    topic=""" {medicine_prompt} and for the image of the plant given always give a rough estimate of the price of the plant per kg in India"""
+    topic=""" {medicine_prompt}"""
 # Translation Feature
     st.subheader("Translation Settings")
     st.markdown("If you'd like to translate the response into another language, choose a target language below:")
