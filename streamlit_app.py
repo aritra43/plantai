@@ -16,7 +16,7 @@ model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Set page configuration
 st.set_page_config(
-    page_title="MedBook"
+    page_title="DawaSaarthi"
 )
 
 # Define functions
