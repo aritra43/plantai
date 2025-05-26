@@ -40,7 +40,7 @@ translator = Translator()
 with st.sidebar:
     st.title("Enquiry Booth")
     st.markdown("------")
-    uploaded_file = st.file_uploader("Upload your prescription...", type=['jpg', 'jpeg', 'png'])
+    uploaded_file = st.file_uploader("Upload your plant image.... ", type=['jpg', 'jpeg', 'png'])
 
 # Display uploaded image
     if uploaded_file is not None:
